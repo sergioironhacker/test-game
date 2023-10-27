@@ -1,0 +1,41 @@
+body,
+html {
+    height: 100%;
+    background: #b8adad;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background: #00ff00;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.bar {
+    width: 20px;
+    height: 100px;
+    background: #000;
+    border: 2px solid #fff;
+}
+
+#bar1 {
+    top: 20px;
+    float: left;
+    position: absolute;
+}
+
+#bar2 {
+    top: 20px;
+    right: 0px;
+    position: absolute;
+}
+
+#line {
+    width: 50%;
+    border-right: #e45a0a dashed 5px;
+    height: 100%;
+}
